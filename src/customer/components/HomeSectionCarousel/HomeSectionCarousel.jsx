@@ -6,7 +6,7 @@ import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
 import IconButton from "@mui/material/IconButton";
 import {useState} from "react";
 
-const HomeSectionCarousel = ({sectionName}) => {
+const HomeSectionCarousel = () => {
   const [activeIndex,setActiveIndex] = useState(0);
   const responsive = {
     0: { items: 1 },
@@ -74,16 +74,6 @@ const HomeSectionCarousel = ({sectionName}) => {
         </button>)}
       </div>
     </div>
-    // <div>
-    //     <AliceCarousel
-    //         items={items}
-    //         responsive={responsive}
-    //         //infinite
-    //         autoPlay
-    //         // autoPlayInterval={1000}
-    //         disableButtonsControls
-    //     />
-    // </div>
   );
 };
 

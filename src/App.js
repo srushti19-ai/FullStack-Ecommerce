@@ -5,13 +5,15 @@ import Homepage from './customer/pages/Homepage/Homepage';
 import './App.css';
 import Maincarousel from './customer/components/Homecarousel/Maincarousel';
 import Footer from './customer/components/Footer/Footer';
+import ProductCard from './customer/components/Product/ProductCard';
 
 function App() {
   return (
     <div className="">
       <Navigation/>
       <div>
-        <Homepage/>
+        {/* <Homepage/> */}
+        <ProductCard/>
       </div>
       <Footer/>
     </div>
