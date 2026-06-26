@@ -6,6 +6,7 @@ import './App.css';
 import Maincarousel from './customer/components/Homecarousel/Maincarousel';
 import Footer from './customer/components/Footer/Footer';
 import ProductCard from './customer/components/Product/ProductCard';
+import Product from './customer/components/Product/Product';
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       <Navigation/>
       <div>
         {/* <Homepage/> */}
-        <ProductCard/>
+        {/* <ProductCard/> */}
+        <Product/>
       </div>
       <Footer/>
     </div>
